@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SANU TO HISOKA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 20px;
+        }
+
+        #miimage {
+            width: 80%;
+            max-width: 400px;
+            margin: 20px auto;
+        }
+
+        button {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: #fff;
+        }
+
+        @media screen and (max-width: 600px) {
+            #miimage {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>SANU TO HISOKA</h1>
+    <button onclick="document.getElementById('miimage').src='sanu.JPG'">SANU</button>
+    <img id="miimage" src="sanu.JPG" alt="off">
+    <button onclick="document.getElementById('miimage').src='hisoka.JPG'">HISOKA</button>
+</body>
+</html>
